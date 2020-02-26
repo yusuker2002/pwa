@@ -1,4 +1,4 @@
 # PWA DEMO
 
-
-Creating a new branch is quick AND simple.
+npm install
+npm run server
