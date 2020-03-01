@@ -1,6 +1,6 @@
 {
   "name": "PWA Demo2(Cache)",
-  "short_name": "PWA_Demo2",
+  "short_name": "PWA Demo2",
   "icons": [
     {
       "src": "assets/images/icons/icon_144x144.png",
