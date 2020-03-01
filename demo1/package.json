@@ -1,6 +1,6 @@
 {
-  "name": "pwa-demo1",
-  "description": "pwa-demo1-lifecycle",
+  "name": "PWA Demo1(Lifecycle)",
+  "short_name": "PWA Demo1",
   "author": "gaogao",
   "scripts": {
     "server": "node server/index.js"
