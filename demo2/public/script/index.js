@@ -56,13 +56,6 @@ app.refresh = function () {
 /**********************************
  * 事件监听 大部分属于App Shell 部分
  ***********************************/
-document.querySelector('.icon-category').addEventListener('click', function () {
-  app.openSidebar()
-})
-
-document.querySelector('.mask').addEventListener('click', function () {
-  app.closeSidebar()
-})
 
 document.querySelector('.icon-refresh').addEventListener('click', function () {
   app.refresh()
