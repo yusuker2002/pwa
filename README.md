@@ -4,6 +4,8 @@
 
 GIT: (https://github.com/yusuker2002/pwa.git)
 
+运行环境：nodejs v12.0.0
+
 - demo1  [安装、生命周期]
 - demo2  [缓存策略的使用]
 - demo3  [推送通知]
