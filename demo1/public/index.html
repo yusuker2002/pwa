@@ -47,17 +47,15 @@
     // 判断浏览器是否支持 Service Worker
     if ('serviceWorker' in navigator) {
         navigator.serviceWorker.getRegistrations().then( sw => {
-            if (sw.length == 0) {
-                console.log('SW Register begin');
-                // 注册 Service Worker
-                navigator.serviceWorker.register('/sw.js').then(registration => {
-                    // 注册成功
-                    console.log('ServiceWorker registration successful')
-                }).catch(err => {
-                    // 注册失败 :(
-                    console.warn('ServiceWorker registration failed: ', err)
-                })
-            }
+            console.log('SW Register begin');
+            // 注册 Service Worker
+            navigator.serviceWorker.register('/sw.js').then(registration => {
+                // 注册成功
+                console.log('ServiceWorker registration successful')
+            }).catch(err => {
+                // 注册失败 :(
+                console.warn('ServiceWorker registration failed: ', err)
+            })
         })
     }
   </script>
