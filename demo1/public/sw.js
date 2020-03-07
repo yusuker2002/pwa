@@ -4,6 +4,8 @@
 
 self.addEventListener('install', function (e) {
     console.log('SW Install')
+    // 跳过等待
+    //self.skipWaiting()
 })
 
 self.addEventListener('activate', function (e) {

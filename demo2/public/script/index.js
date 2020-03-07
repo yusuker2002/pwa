@@ -49,16 +49,4 @@ app.updateTemplate = function (data) {
   container.textContent = data
 }
 
-app.refresh = function () {
-  app.getData(url)
-}
-
-/**********************************
- * 事件监听 大部分属于App Shell 部分
- ***********************************/
-
-document.querySelector('.icon-refresh').addEventListener('click', function () {
-  app.refresh()
-})
-
 app.getData(url)
